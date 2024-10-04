@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/custom_item_gridview_list_answer_"
+    android:gravity="center"
+    android:padding="4dp">
+    <TextView
+        android:id="@+id/tv_Num_Answer"
+        android:text="Câu 1: "
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/tv_Your_Answer"
+        android:text="A"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:layout_marginRight="2dp"/>
+
+</LinearLayout>

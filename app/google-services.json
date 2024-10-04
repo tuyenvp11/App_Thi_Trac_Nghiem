@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1025430735981",
+    "firebase_url": "https://appthitracnghiem-4bf48-default-rtdb.firebaseio.com",
+    "project_id": "appthitracnghiem-4bf48",
+    "storage_bucket": "appthitracnghiem-4bf48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025430735981:android:ebad72efab9914e6678364",
+        "android_client_info": {
+          "package_name": "com.tuyenvp.appthitracnghiem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZv604T4WpikeIJp-6juI6JSCT7Jze1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025430735981:android:00bf8265cf6e8fad678364",
+        "android_client_info": {
+          "package_name": "com.tuyenvp.appthitracnghiem_001"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZv604T4WpikeIJp-6juI6JSCT7Jze1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

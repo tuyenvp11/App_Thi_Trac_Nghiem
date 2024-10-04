@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_montienganh"
+            android:title="@string/nav_montienganh"
+            android:icon="@drawable/ic_lam_bai"/>
+        <item
+            android:id="@+id/nav_xemdiem"
+            android:title="Xem điểm"
+            android:icon="@drawable/ic_bang_diem"/>
+        <item
+            android:id="@+id/nav_congthuc"
+            android:title="Công Thức"
+            android:icon="@drawable/ic_congthuc"/>
+    </group >
+    <group android:checkableBehavior="single">
+        <item android:title="Tài khoản">
+            <menu>
+                <item
+                    android:id="@+id/nav_my_profile"
+                    android:title="Tài Khoản của tôi"
+                    android:icon="@drawable/ic_user_default"/>
+                <item
+                    android:id="@+id/nav_change_password"
+                    android:title="Đổi mật khẩu"
+                    android:icon="@drawable/ic_doi_mat_khau"/>
+                <item
+                    android:id="@+id/nav_sign_out"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/ic_dang_xuat"/>
+            </menu>
+        </item>
+    </group>
+    <group />
+</menu>

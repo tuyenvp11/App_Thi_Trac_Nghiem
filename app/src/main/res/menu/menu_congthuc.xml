@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ite_all"
+        android:title="Tất cả"
+        android:icon="@drawable/ic_all"/>
+    <item
+        android:id="@+id/ite_chude1"
+        android:title="Tiếng Anh"
+        android:icon="@drawable/ic_chude"/>
+    <item
+        android:id="@+id/ite_chude2"
+        android:title="Java"
+        android:icon="@drawable/ic_chude"/>
+    <item
+        android:id="@+id/ite_chude3"
+        android:title="Javascript"
+        android:icon="@drawable/ic_chude"/>
+    <item
+        android:id="@+id/ite_chude4"
+        android:title="React"
+        android:icon="@drawable/ic_chude"/>
+    <item
+        android:id="@+id/ite_chude5"
+        android:title="SQL"
+        android:icon="@drawable/ic_chude"/>
+    <item
+        android:id="@+id/ite_chude6"
+        android:title="Python"
+        android:icon="@drawable/ic_chude"/>
+
+</menu>

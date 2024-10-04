@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ứng dụng luyện thi trắc nghiệm</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_montienganh">Môn học</string>
+    <string name="nav_monhoa">Môn Hóa</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

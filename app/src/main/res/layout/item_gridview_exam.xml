@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linExam"
+    android:layout_marginVertical="160dp"
+    android:background="@drawable/custom_textview_question"
+    android:gravity="center"
+
+
+    >
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/image_exam_2"
+        android:padding="8dp"
+        />
+    <TextView
+        android:text="Đề số 1"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnumExam"
+        android:textSize="32sp"
+
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

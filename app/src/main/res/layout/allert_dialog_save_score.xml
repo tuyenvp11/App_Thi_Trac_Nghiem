@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background_savescore"
+    >
+
+    <TextView
+        android:text="Lưu điểm"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="8dp"
+        android:background="@drawable/custom_textview_question"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+         />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Họ Tên:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:id="@+id/tv" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/edtName"
+            android:layout_weight="2"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:hint="Type name..." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Số câu đúng:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRoom"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="10/20"
+            android:ems="10"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResultNumTrue"
+            android:layout_weight="2"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:text="100 điểm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:id="@+id/txtResultScore" />
+
+</LinearLayout>
